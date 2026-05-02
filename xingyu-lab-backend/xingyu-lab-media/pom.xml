@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.yangxingyu</groupId>
+        <artifactId>xingyu-lab-backend</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>xingyu-lab-media</artifactId>
+    <name>xingyu-lab-media</name>
+    <description>媒体文件模块 - 文件上传、文件中心、照片墙、相册、对象存储</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.yangxingyu</groupId>
+            <artifactId>xingyu-lab-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.yangxingyu</groupId>
+            <artifactId>xingyu-lab-framework</artifactId>
+        </dependency>
+
+        <!-- MinIO -->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

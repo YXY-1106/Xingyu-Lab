@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.yangxingyu</groupId>
+        <artifactId>xingyu-lab-backend</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>xingyu-lab-system</artifactId>
+    <name>xingyu-lab-system</name>
+    <description>系统模块 - 用户、角色、菜单、权限、登录、字典、系统配置、操作日志</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.yangxingyu</groupId>
+            <artifactId>xingyu-lab-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.yangxingyu</groupId>
+            <artifactId>xingyu-lab-framework</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

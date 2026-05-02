@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.yangxingyu</groupId>
+        <artifactId>xingyu-lab-backend</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>xingyu-lab-content</artifactId>
+    <name>xingyu-lab-content</name>
+    <description>内容模块 - 博客、分类、标签、日记、资料库、评论</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.yangxingyu</groupId>
+            <artifactId>xingyu-lab-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.yangxingyu</groupId>
+            <artifactId>xingyu-lab-framework</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
